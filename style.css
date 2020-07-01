@@ -11,7 +11,7 @@ section{    height:550px;
         }
 
 h2 { font-size: 50px;}
-#top-font_size{ font-size: 30px;}
+#top-font{ font-size: 30px;}
 .name-highlight { color:#f8ac07}
 
 .half-width{width: 38%;
@@ -55,7 +55,7 @@ margin-left: 65px;
 margin-top: 5px;
 }
 
-.work-heading{ text-align: center;}
+.My-work h2{ text-align: center;}
 
 .latest-work-background{ 
     background-image: url("personal-website/latest-work-bg.png");
@@ -103,8 +103,25 @@ margin-top: 5px;
         background-size: 100% 100%;
     }
 
-
-    #copyright-eliment{text-align: center;
-                       color: #f89009;}
-  #copyright-eliment:hover{ color: blueviolet;}     
-             
+    .bottom {margin-top: 50px;
+        padding:3px;
+        color: gold;
+        background-color: gray; 
+        height: 65px;
+        text-align: center;}
+        
+    .bottom ul {padding: 0;
+        margin: 0; 
+        outline: 0; 
+        list-style: none ; 
+        }
+    .bottom ul li {display:inline-block;}
+    
+    .bottom ul li a {color: gold;
+        font-size: unset;
+        margin-top: 10px;
+        display: block;
+        margin-right: 5px;
+    text-decoration: none; }
+.bottom ul li a:hover{color: #c00be0;}
+ 
