@@ -4,6 +4,8 @@ body {margin: 0; padding: 0; outline: 0;
     'Lucida Grande', 
     'Lucida Sans Unicode', Verdana,
       sans-serif;}
+
+
 section{    height:550px;
             color: #646060;
         }
@@ -18,6 +20,8 @@ h2 { font-size: 50px;}
     padding-left: 2%;
     margin-right: 5%;
     }
+
+
 .half-width img{ width: 100%;}
 
 .button {
@@ -28,6 +32,7 @@ h2 { font-size: 50px;}
     color: darkgreen;
     font-weight: 900;
     }
+
     .button:hover {background-image: linear-gradient( #d41010, #0bee31); 
         color: #f57a08;
        }
@@ -35,29 +40,35 @@ h2 { font-size: 50px;}
 .header-background{ 
         background-image:url("personal-website/header-bg.png");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-
-       
+        background-size: 100% 100%
     }
+
 .biography-background{
         background-image: url("personal-website/biography-bg.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+
 .My-work {float: left; }
 .My-work img{width: 350px;
 margin-left: 65px;
 margin-top: 5px;
 }
+
 .work-heading{ text-align: center;}
+
 .latest-work-background{ 
     background-image: url("personal-website/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;       
 }
-.footer{text-align: center;
-    
+
+.footer{text-align: center; }
+ .footer h1 {font-size: 35px;}
+ .footer h3{font-size: 25px; 
     }
+ .footer h4{font-size: 18px; }
+
 .contact-section{background-image: linear-gradient( #d9fd0f , #f89411);
     border-radius: 5px;
     color: darkgreen;
@@ -66,20 +77,34 @@ margin-top: 5px;
     display: block;
     margin-right:25%;
     margin-left: 25%;
-    padding: 1px;
+    padding: 15px;
     margin-top: 50px;}
+
+
     .box-shadow{ box-shadow: 5px 10px 30px 5px lightslategrey;
         border-radius: 5px;
         height: 70%;
-        background-image: linear-gradient(tomato , green);}
+        background-image: linear-gradient(tomato , rgb(250, 194, 9));}
         .box-shadow:hover{ background: aliceblue;}
-    .contact-section h6 { font-size: 12px;}
-    .contact-section h5{ font-size: 20px;}
+
+     #line  {font-size: 12px;
+         text-align: center;
+     color: green;}
+
+    .line-button{ font-size: 20px;
+         text-decoration: none;
+        color: green;
+        padding: 18px;
+        display: block;
+}
     .footer-background{
         background-image: url("personal-website/footer-bg.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+
+
     #copyright-eliment{text-align: center;
                        color: #f89009;}
-  #copyright-eliment:hover{ color: blueviolet;}                  
+  #copyright-eliment:hover{ color: blueviolet;}     
+             
