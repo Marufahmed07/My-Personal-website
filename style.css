@@ -63,7 +63,11 @@ margin-top: 5px;
     background-size: 100% 100%;       
 }
 
-.footer{text-align: center;}
+.footer{text-align: center; }
+ .footer h1 {font-size: 35px;}
+ .footer h3{font-size: 25px; 
+    }
+ .footer h4{font-size: 18px; }
 
 .contact-section{background-image: linear-gradient( #d9fd0f , #f89411);
     border-radius: 5px;
@@ -80,16 +84,16 @@ margin-top: 5px;
     .box-shadow{ box-shadow: 5px 10px 30px 5px lightslategrey;
         border-radius: 5px;
         height: 70%;
-        background-image: linear-gradient(tomato , green);}
+        background-image: linear-gradient(tomato , rgb(250, 194, 9));}
         .box-shadow:hover{ background: aliceblue;}
 
-     #line   {
+     #line  {
          text-align: center;
-     color: #f9b20a;}
+     color: green;}
 
     .line-button{ font-size: 20px;
          text-decoration: none;
-        color: #f9b20a;
+        color: green;
         padding: 18px;
         display: block;
 }
