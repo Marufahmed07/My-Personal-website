@@ -1,0 +1,85 @@
+body {margin: 0; padding: 0; outline: 0;
+     font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', Verdana,
+      sans-serif;}
+section{    height:550px;
+            color: #646060;
+        }
+
+h2 { font-size: 50px;}
+#top-font_size{ font-size: 30px;}
+.name-highlight { color:#f8ac07}
+
+.half-width{width: 38%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+    margin-right: 5%;
+    }
+.half-width img{ width: 100%;}
+
+.button {
+    background-image: linear-gradient( #d9fd0f , #f89411);
+    padding: 5px 8px ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 900;
+    }
+    .button:hover {background-image: linear-gradient( #d41010, #0bee31); 
+        color: #f57a08;
+       }
+
+.header-background{ 
+        background-image:url("personal-website/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+       
+    }
+.biography-background{
+        background-image: url("personal-website/biography-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+.My-work {float: left; }
+.My-work img{width: 350px;
+margin-left: 65px;
+margin-top: 5px;
+}
+.work-heading{ text-align: center;}
+.latest-work-background{ 
+    background-image: url("personal-website/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;       
+}
+.footer{text-align: center;
+    
+    }
+.contact-section{background-image: linear-gradient( #d9fd0f , #f89411);
+    border-radius: 5px;
+    color: darkgreen;
+    font-weight: 900;
+    margin: 1px 1px 50px px;
+    display: block;
+    margin-right:25%;
+    margin-left: 25%;
+    padding: 1px;
+    margin-top: 50px;}
+    .box-shadow{ box-shadow: 5px 10px 30px 5px lightslategrey;
+        border-radius: 5px;
+        height: 70%;
+        background-image: linear-gradient(tomato , green);}
+        .box-shadow:hover{ background: aliceblue;}
+    .contact-section h6 { font-size: 12px;}
+    .contact-section h5{ font-size: 20px;}
+    .footer-background{
+        background-image: url("personal-website/footer-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #copyright-eliment{text-align: center;
+                       color: #f89009;}
+  #copyright-eliment:hover{ color: blueviolet;}                  
